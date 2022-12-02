@@ -26,7 +26,7 @@ class About extends Me {
     "Database" : { "Firebase", "Mysql", "Mongodb", "Sqlserver" },
     "Editors" : { "Vscode", "Sublime" },
     "Platforms" : { "GNU/Linux", "Windows" },
-    "OtherTools" : { "Git/GitHub", "StarUML", "Pixelorama", "Photoshop", "Heroku", "FileZilla", "Nodejs", "Bootstrap", "Phaser", "Postman" }
+    "OtherTools" : { "Git/GitHub", "StarUML", "Pixelorama", "Photoshop", "Heroku", "FileZilla", "Nodejs", "Bootstrap", "Phaser", "Postman", "Compass", "PhpMyAdmin", "Azure DataStudio", "SQL Management Tools", "WorkBench" }
   };
 
   const myPreferences = {

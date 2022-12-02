@@ -19,41 +19,41 @@
 // tools_I_use organized
 class About extends Me { 
   const myTools = {  
-    "ProgramingLanguages" : [ "Java", "Python", "PHP","C++", "C#", "Javascript", "Typescript", "Visual Basic"],
-    "OtherLanguages" : [ "HTML", "CSS", "Bash", "Json", "Markdown"],
-    "Frameworks" : ["Angular", "Django", "restframework","LoopBack", "CodeIgniter", "Ionic"],
-    "IDEs" : ["NetBeans", ".Net"],
-    "Database" : {
-                    "SQL": [ "Mysql", "Sqlserver"],
-                    "NoSQL" : [ "Firebase", "Mongodb"]
+    ProgramingLanguages : [ "Java", "Python", "PHP","C++", "C#", "Javascript", "Typescript", "Visual Basic"],
+    OtherLanguages : [ "HTML", "CSS", "Bash", "Json", "Markdown"],
+    Frameworks : ["Angular", "Django", "restframework","LoopBack", "CodeIgniter", "Ionic"],
+    IDEs : ["NetBeans", ".Net"],
+    Database : {
+                    SQL: [ "Mysql", "Sqlserver"],
+                    NoSQL : [ "Firebase", "Mongodb"]
                   },
-    "SGBD": ["Compass", "PhpMyAdmin", "Azure DataStudio", "SQL Management Tools", "WorkBench"],
-    "Editors" : [ "Vscode", "Sublime" ],
-    "Tools" : {
-      "modelling" : "StarUML",
-      "design" : ["Pixelorama", "Photoshop", "Canva", "FontAwasome"],
-      "libs" : ["Bootstrap", "Phaser"],
-      "devOps" : ["Heroku", "FileZilla"],
-      "env" : ["Nodejs", "Virtual Env"],
-      "security" : ["Recaptcha", "Hcaptcha", "Jwt"],
-      "more" : ["Express", "Flask", "Postman", "Sendrid"],
-    "Versions" : ["Git", "GitHub"],
-    "Platforms" : [ "GNU/Linux", "Windows" ]
+    SGBD: ["Compass", "PhpMyAdmin", "Azure DataStudio", "SQL Management Tools", "WorkBench"],
+    Editors : ["Vscode", "Sublime"],
+    Tools : {
+      modelling : "StarUML",
+      design : ["Pixelorama", "Photoshop", "Canva", "FontAwasome"],
+      libs : ["Bootstrap", "Phaser"],
+      devOps : ["Heroku", "FileZilla"],
+      env : ["Nodejs", "Virtual Env"],
+      security : ["Recaptcha", "Hcaptcha", "Jwt"],
+      more : ["Express", "Flask", "Postman", "Sendrid"],
+    Versions : ["Git", "GitHub"],
+    Platforms : [ "GNU/Linux", "Windows" ]
     }
   };
 
   const myPreferences = {
-    "So" : "Manjaro", 
-    "Architectures": ["microservices", "event-driven", "design system pattern", "spa", "pwa"],
-    "Paradigm": ["POO", "COP"],
-    "Dev" : "Fullstack",
-    "Agile" : "Scrum", 
-    "Challenge" : "Certification program in Web development Skills with MinTic-Colombia & Universidad de Caldas"
+    So : "Manjaro", 
+    Architectures: ["microservices", "event-driven", "design system pattern", "spa", "pwa"],
+    Paradigm: ["POO", "COP"],
+    Dev : "Fullstack",
+    Agile : "Scrum", 
+    Challenge : "Certification program in Web development Skills with MinTic-Colombia & Universidad de Caldas"
   };
 
   const languages = {
-    "default" : "spanish",
-    "more" : ["english"]
+    default : "spanish",
+    more : ["english"]
   }
 }
 ```

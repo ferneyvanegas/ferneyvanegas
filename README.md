@@ -6,6 +6,8 @@
 
 [<img src="https://img.shields.io/badge/Email-fvanegash%40libertadores.edu.co-yellow">](mailto:fvanegash@libertadores.edu.co)
 
+[<img src="https://img.shields.io/badge/Email-ferneyvanegas@gmail.com-yellow">](mailto:ferneyvanegas@gmail.com)
+
 [<img src="https://img.shields.io/badge/LinkedIn-ferney--vanegas--hernandez-green">](https://linkedin.com/in/ferney-vanegas-hernandez) 
 
 [<img src="https://img.shields.io/badge/Twitter-ferney__vanegas-blue">](https://twitter.com/ferney_vanegas) 

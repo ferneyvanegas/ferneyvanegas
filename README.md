@@ -19,21 +19,26 @@ class About extends Me {
   const myTools = {  
     "ProgramingLanguages" : { "Java", "Python", "PHP","C++", "C#", "Javascript", "Typescript", "Visual Basic" },
     "OtherLanguages" : { "HTML", "CSS", "Bash", "Json", "Markdown" },
-    "Frameworks" : {"Angular", "Django", "LoopBack", "CodeIgniter"},
+    "Frameworks" : {"Angular", "Django", "restframework","LoopBack", "CodeIgniter", "Ionic"},
     "IDEs" : {"NetBeans", ".Net"},
     "Database" : { "Firebase", "Mysql", "Mongodb", "Sqlserver" },
     "Editors" : { "Vscode", "Sublime" },
     "Platforms" : { "GNU/Linux", "Windows" },
-    "OtherTools" : { "Git/GitHub", "StarUML", "Pixelorama", "Photoshop", "FileZilla", "Nodejs", "Bootstrap", "Phaser", "Postman" }
+    "OtherTools" : { "Git/GitHub", "StarUML", "Pixelorama", "Photoshop", "Heroku", "FileZilla", "Nodejs", "Bootstrap", "Phaser", "Postman" }
   };
 
   const myPreferences = {
     "So" : "Manjaro", 
-    "Architectures": {"microservices", "event-driven", "design system pattern"},
+    "Architectures": {"microservices", "event-driven", "design system pattern", "spa", "pwa"},
     "Paradigm": {"POO", "COP"},
     "Dev" : "Fullstack",
     "Agile" : "Scrum", 
     "Challenge" : "Certification program in Web development Skills with MinTic-Colombia & Universidad de Caldas"
+  };
+
+  const languages = {
+    "default" : "spanish",
+    "more" : ["english"]
   }
 }
 ```

@@ -48,7 +48,7 @@ class About extends Me {
     Paradigm: ["POO", "COP"],
     Dev : "Fullstack",
     Agile : "Scrum", 
-    Challenge : "Certification program in Web development Skills with MinTic-Colombia & Universidad de Caldas"
+    Challenge : "BYU PathwayConnect program | 2023"
   };
 
   const languages = {

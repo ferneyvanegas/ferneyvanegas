@@ -34,9 +34,9 @@ class About extends Me {
       design : ["Pixelorama", "Photoshop", "Canva", "FontAwasome"],
       libs : ["Bootstrap", "Phaser"],
       devOps : ["Heroku", "FileZilla"],
-      env : ["Nodejs", "Virtual Env"],
+      env : ["nodejs", "virtualenv", "docker", "docker-compose"],
       security : ["Recaptcha", "Hcaptcha", "Jwt"],
-      more : ["Express", "Flask", "Postman", "Sendrid"],
+      more : ["Express", "Flask", "Postman", "Sendgrid"],
     Versions : ["Git", "GitHub"],
     Platforms : [ "GNU/Linux", "Windows" ]
     }

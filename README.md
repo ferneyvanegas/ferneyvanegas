@@ -19,32 +19,37 @@
 // tools_I_use organized
 class About extends Me { 
   const myTools = {  
-    ProgramingLanguages : [ "Java", "Python", "PHP","C++", "C#", "Javascript", "Typescript", "Visual Basic"],
+    ProgrammingLanguages : [ "Java", "*Python", "PHP","C++", "C#", "*Javascript", "*Typescript", "Visual Basic"],
     OtherLanguages : [ "HTML", "CSS", "Bash", "Json", "Markdown"],
-    Frameworks : ["Angular", "Django", "restframework","LoopBack", "CodeIgniter", "Ionic"],
+    Frameworks : ["*Angular", "*Django", "*restframework","LoopBack", "CodeIgniter", "*Ionic", "Express", "Flask"],
     IDEs : ["NetBeans", ".Net"],
     Database : {
-                    SQL: [ "Mysql", "Sqlserver"],
+                    SQL: [ "Mysql", "Mariadb", "Sqlserver"],
                     NoSQL : [ "Firebase", "Mongodb"]
                   },
     SGBD: ["Compass", "PhpMyAdmin", "Azure DataStudio", "SQL Management Tools", "WorkBench"],
-    Editors : ["Vscode", "Sublime"],
+    Editors : ["Vscode", "Sublime", "Joe"],
     Tools : {
       modelling : "StarUML",
       design : ["Pixelorama", "Photoshop", "Canva", "FontAwasome"],
       libs : ["Bootstrap", "Phaser"],
-      devOps : ["Heroku", "FileZilla"],
+      devOps : ["AWS", "Heroku", "FileZilla", "ESXi", "Proxmox"],
       env : ["nodejs", "virtualenv", "docker", "docker-compose"],
       security : ["Recaptcha", "Hcaptcha", "Jwt"],
-      more : ["Express", "Flask", "Postman", "Sendgrid"],
+      conection : ["ssh", "anydesk", "no-machine"], 
+      more : ["Postman", "Sendgrid"],
+    AI : ["Chat-GPT", "Auto-GPT"],
     Versions : ["Git", "GitHub"],
-    Platforms : [ "GNU/Linux", "Windows" ]
+    Platforms : {
+                    "GNU/Linux" : ["Debian", "Ubuntu", "Manjaro", "Zorin"], 
+                    "Windows": ["XP", "7", "8", "10", "11", "Server"]
+                }
     }
   };
 
   const myPreferences = {
-    So : "Manjaro", 
-    Architectures: ["microservices", "event-driven", "design system pattern", "spa", "pwa"],
+    Platform : "Linux", 
+    Architectures: ["microservices", "monolithic" "event-driven", "design system pattern", "spa", "pwa"],
     Paradigm: ["POO", "COP"],
     Dev : "Fullstack",
     Agile : "Scrum", 

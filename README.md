@@ -21,7 +21,7 @@ class About extends Me {
   const myTools = {  
     ProgrammingLanguages : [ "Java", "*Python", "PHP","C++", "C#", "*Javascript", "*Typescript", "Visual Basic"],
     OtherLanguages : [ "HTML", "CSS", "Bash", "Json", "Markdown"],
-    Frameworks : ["*Angular", "*Django", "*restframework","LoopBack", "CodeIgniter", "*Ionic", "Express", "Flask"],
+    Frameworks : ["*Angular", "*Django", "*restframework", "LoopBack", "CodeIgniter", "*Ionic", "*Express", "Flask"],
     IDEs : ["NetBeans", ".Net"],
     Database : {
                     SQL: [ "Mysql", "Mariadb", "Sqlserver"],
@@ -33,7 +33,7 @@ class About extends Me {
       modelling : "StarUML",
       design : ["Pixelorama", "Photoshop", "Canva", "FontAwasome"],
       libs : ["Bootstrap", "Phaser"],
-      devOps : ["AWS", "Heroku", "FileZilla", "ESXi", "Proxmox"],
+      devOps : ["AWS", "Heroku", "FileZilla", "ESXi", "Proxmox", "Cloudflare"],
       env : ["nodejs", "virtualenv", "docker", "docker-compose"],
       security : ["Recaptcha", "Hcaptcha", "Jwt"],
       conection : ["ssh", "anydesk", "no-machine"], 
@@ -41,7 +41,7 @@ class About extends Me {
     AI : ["Chat-GPT", "Auto-GPT"],
     Versions : ["Git", "GitHub"],
     Platforms : {
-                    "GNU/Linux" : ["Debian", "Ubuntu", "Manjaro", "Zorin"], 
+                    "GNU/Linux" : ["Debian", "Ubuntu", "Manjaro", "Zorin", "Arch"], 
                     "Windows": ["XP", "7", "8", "10", "11", "Server"]
                 }
     }
@@ -53,7 +53,7 @@ class About extends Me {
     Paradigm: ["POO", "COP"],
     Dev : "Fullstack",
     Agile : "Scrum", 
-    Challenge : "BYU PathwayConnect program | 2023"
+    Challenge : ["Java SE 8 Cert", "Java EE 7 Back-end Server application Development 2.0 Cert"]
   };
 
   const languages = {

@@ -1,19 +1,18 @@
-![Hi There](images/hi.jpg "Hi There")
+![Hi There](/images/intro.jpg "Hi There")
+
+
+## Find me on👇
+
+
+[<img src="https://img.shields.io/badge/ferney_vanegas-x?logo=x&labelColor=black">](https://twitter.com/ferney_vanegas)
+[<img src="https://img.shields.io/badge/ferney_vanegas_hernandez-x?logo=linkedin&labelColor=blue&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fferney-vanegas-hernandez%2F)">](https://www.linkedin.com/in/ferney-vanegas-hernandez/)
+[<img src="https://img.shields.io/badge/ferneyvanegas-x?logo=gmail&logoColor=red&labelColor=white
+">](mailto:ferneyvanegas@gmail.com)
+
 
 <hr/>
 
-<h2> 👇 Connect with me on 👇</h2>
-
-[<img src="https://img.shields.io/badge/Email-fvanegash%40libertadores.edu.co-yellow">](mailto:fvanegash@libertadores.edu.co)
-
-[<img src="https://img.shields.io/badge/Email-ferneyvanegas@gmail.com-yellow">](mailto:ferneyvanegas@gmail.com)
-
-[<img src="https://img.shields.io/badge/LinkedIn-ferney--vanegas--hernandez-green">](https://linkedin.com/in/ferney-vanegas-hernandez) 
-
-[<img src="https://img.shields.io/badge/Twitter-ferney__vanegas-blue">](https://twitter.com/ferney_vanegas) 
-
-<hr/>
-
+## About me 😎
 
 ```javascript
 // tools_I_use organized
@@ -74,5 +73,15 @@ class About extends Me {
   }
 }
 ```
+## Projects 💻
 
+<a href="https://bytenaf.com" style="color:white; text-decoration: none">
+<p style="text-align:center">
+  <img src="images/bytenaf.png">
+</p>
+<p style="text-align:center">
+  <strong>Bytenaf</strong> | 
+  <small>Desarrollo Personal en la era Digital</small>
+</p>
+</a>
 

@@ -69,19 +69,12 @@ class About extends Me {
     languages: {
       default: "spanish",
       more: ["english"]
-    };
-  }
+    }
+  };
 }
 ```
 ## Projects 💻
 
-<a href="https://bytenaf.com" style="color:white; text-decoration: none">
-<p style="text-align:center">
-  <img src="images/bytenaf.png">
-</p>
-<p style="text-align:center">
-  <strong>Bytenaf</strong> | 
-  <small>Desarrollo Personal en la era Digital</small>
-</p>
+<a href="https://bytenaf.com">
+  <img src="images/project.jpg">
 </a>
-

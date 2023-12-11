@@ -9,8 +9,6 @@
 [<img src="https://img.shields.io/badge/ferneyvanegas-gmail?logo=gmail&labelColor=white">](mailto:ferneyvanegas@gmail.com)
 
 
-<hr/>
-
 ## About me 😎
 
 ```javascript

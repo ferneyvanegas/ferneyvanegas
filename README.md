@@ -16,15 +16,15 @@
 class About extends Me { 
   const myTools = {  
     programmingLanguages: {
-      "favorites": ["python", "javaScript", "typeScript"],
-      "familiarWith": ["java", "php", "C++", "C#", "visualBasic"]
+      favorites: ["python", "javaScript", "typeScript"],
+      familiarWith: ["java", "php", "C++", "C#", "visualBasic"]
     },
 
     otherLanguages: ["html", "css", "markdown", "bash", "sql"],
 
     frameworks: {
-      "favorites": ["express", "angular", "react", "django"],
-      "familiarWith": ["loopBack", "codeIgniter", "ionic", "flask"]
+      favorites: ["express", "angular", "react", "django"],
+      familiarWith: ["loopBack", "codeIgniter", "ionic", "flask"]
     },
 
     ide: ["netBeans", ".net"],
@@ -47,18 +47,14 @@ class About extends Me {
     versions: ["git", "gitHub"],
 
     platforms: {
-      "favorite": "linuxArch",
-      "familiarWith": ["microsoftSystems", "linuxDistributions"]  
+      favorite: "linuxArch",
+      familiarWith: ["microsoftSystems", "linuxDistributions"]  
     }, 
 
-    architectures: [
-      "microservices", 
-      "monolithic",
-      "event-driven",
-      "design system pattern",
-      "spa",
-      "pwa"
-    ],
+    architecturesAndTechnologies: {
+      favorites: ["microservices", "POO", "spa", "pwa"]
+      familiarWith: ["monolithic", "event-driven", "design system pattern"]
+    },
 
     dev: "fullstack",
 

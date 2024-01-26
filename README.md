@@ -31,20 +31,25 @@ class About extends Me {
 
     database: {
       sgbd: ["mysql", "mariadb", "sqlServer"],
-      tools: ["compass", "phpMyAdmin", "azureDataStudio", "workBench"],
+      tools: [
+        "compass",
+        "phpMyAdmin",
+        "azureDataStudio",
+        "workBench"
+      ],
       noSqlTools: ["firebase", "mongodb"]
     },
 
     tools: {
       libs: ["bootstrap", "bulma", "phaser"],
       devOps: ["aws", "heroku", "cloudflare"],
-      env: ["nodejs", "virtualenv", "docker", "docker-compose"],
-      standar: ["json", "jwt"]
+      env: ["nodejs", "virtualenv"],
+      standar: ["json", "jwt"],
+      container: ["docker", "docker-compose"],
+      versions: ["git", "gitHub"]
     },
 
     ai: ["chatGPT", "bard"],
-
-    versions: ["git", "gitHub"],
 
     platforms: {
       favorite: "linuxArch",
@@ -52,8 +57,12 @@ class About extends Me {
     }, 
 
     architecturesAndTechnologies: {
-      favorites: ["microservices", "POO", "spa", "pwa"]
-      familiarWith: ["monolithic", "event-driven", "design system pattern"]
+      favorites: ["microservices", "POO", "spa", "pwa"],
+      familiarWith: [
+        "monolithic",
+        "event-driven",
+        "design system pattern"
+      ]
     },
 
     dev: "fullstack",

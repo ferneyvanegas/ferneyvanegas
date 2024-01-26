@@ -30,14 +30,13 @@ class About extends Me {
     ide: ["netBeans", ".net"],
 
     database: {
-      sgbd: ["mysql", "mariadb", "sqlServer"],
+      sgbd: ["mysql", "mariadb", "sqlServer", "mongodb"],
       tools: [
-        "compass",
         "phpMyAdmin",
         "azureDataStudio",
         "workBench"
       ],
-      noSqlTools: ["firebase", "mongodb"]
+      noSqlTools: ["firebase", "compass"]
     },
 
     tools: {

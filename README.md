@@ -20,7 +20,7 @@ class About extends Me {
       "familiarWith": ["java", "php", "C++", "C#", "visualBasic"]
     },
 
-    otherLanguages: [ "html", "css", "bash", "json", "markdown"],
+    otherLanguages: ["html", "css", "bash", "markdown"],
 
     frameworks: {
       "favorites": ["express", "angular", "react", "django"],
@@ -30,7 +30,7 @@ class About extends Me {
     ide: ["netBeans", ".net"],
 
     database: {
-      sql: [ "mysql", "mariadb", "sqlServer"],
+      sql: ["mysql", "mariadb", "sqlServer"],
       noSql: [ "firebase", "mongodb"],
       sgbd: ["compass", "phpMyAdmin", "azureDataStudio", "workBench"],
     },
@@ -38,7 +38,8 @@ class About extends Me {
     tools: {
       libs: ["bootstrap", "bulma", "phaser"],
       devOps: ["aws", "heroku", "cloudflare"],
-      env: ["nodejs", "virtualenv", "docker", "docker-compose"]
+      env: ["nodejs", "virtualenv", "docker", "docker-compose"],
+      standar: ["json", "jwt"]
     },
 
     ai: ["chatGPT", "bard"],

@@ -48,7 +48,7 @@ class About extends Me {
       versions: ["git", "gitHub"]
     },
 
-    ai: ["chatGPT", "bard"],
+    ai: ["chatGPT", "gemini"],
 
     platforms: {
       favorite: "linuxArch",

@@ -23,7 +23,7 @@ class About extends Me {
     otherLanguages: ["html", "css", "markdown", "bash", "sql"],
 
     frameworks: {
-      favorites: ["express", "angular", "react", "django"],
+      favorites: ["express", "angular", "react", "react-native", "django"],
       familiarWith: ["loopBack", "codeIgniter", "ionic", "flask"]
     },
 

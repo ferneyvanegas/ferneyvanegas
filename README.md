@@ -12,67 +12,59 @@
 ## About me 😎
 
 ```javascript
-// tools_I_use organized
-class About extends Me { 
-  const myTools = {  
+// tools I use organized
+function getFerneyStack(): DeveloperTools {
+  const myStack: DeveloperTools = {
     programmingLanguages: {
-      favorites: ["python", "javaScript", "typeScript"],
-      familiarWith: ["java", "php", "C++", "C#", "visualBasic"]
+      favorites: ["Python", "JavaScript", "TypeScript"],
+      familiarWith: ["Java", "PHP", "C++", "C#", "Visual Basic"]
     },
-
-    otherLanguages: ["html", "css", "markdown", "bash", "sql"],
-
+    otherLanguages: ["HTML", "CSS", "Markdown", "Bash", "SQL"],
     frameworks: {
-      favorites: ["express", "angular", "react", "react-native", "django"],
-      familiarWith: ["loopBack", "codeIgniter", "ionic", "flask"]
+      favorites: ["Express", "Next.js", "React", "React Native", "Django"],
+      familiarWith: ["LoopBack", "CodeIgniter", "Ionic", "Angular"]
     },
-
-    ide: ["netBeans", ".net"],
-
+    ide: ["NetBeans", ".NET"],
     database: {
-      sgbd: ["mysql", "mariadb", "sqlServer", "mongodb"],
+      sgbd: ["MySQL", "MariaDB", "SQL Server", "MongoDB", "PostgreSQL", "Supabase"],
       tools: [
         "phpMyAdmin",
-        "azureDataStudio",
-        "workBench"
+        "Azure Data Studio",
+        "MySQL Workbench",
+        "Supabase CLI"
       ],
-      noSqlTools: ["firebase", "compass"]
+      noSqlTools: ["Firebase", "MongoDB Compass"]
     },
-
     tools: {
-      libs: ["bootstrap", "bulma", "phaser"],
-      devOps: ["aws", "heroku", "cloudflare"],
-      env: ["nodejs", "virtualenv"],
-      standar: ["json", "jwt"],
-      container: ["docker", "docker-compose"],
-      versions: ["git", "gitHub"]
+      libs: ["Bootstrap", "Bulma", "Phaser"],
+      devOps: ["AWS", "Heroku", "Cloudflare"],
+      env: ["Node.js", "virtualenv"],
+      standard: ["JSON", "JWT"],
+      container: ["Docker", "Docker Compose"],
+      versioning: ["Git", "GitHub"]
     },
-
-    ai: ["chatGPT", "gemini"],
-
+    ai: ["ChatGPT", "Claude", "DeepSeek", "Gemini"],
     platforms: {
-      favorite: "linuxArch",
-      familiarWith: ["microsoftSystems", "linuxDistributions"]  
-    }, 
-
+      favorite: "Arch Linux",
+      familiarWith: ["Microsoft Systems", "Linux Distributions"]
+    },
     architecturesAndTechnologies: {
-      favorites: ["microservices", "POO", "spa", "pwa"],
+      favorites: ["Microservices", "OOP", "SPA", "PWA"],
       familiarWith: [
-        "monolithic",
-        "event-driven",
-        "design system pattern"
+        "Monolithic",
+        "Event-driven",
+        "Design System Patterns"
       ]
     },
-
-    dev: "fullstack",
-
-    agile: "scrum",
-
+    dev: "Full-Stack",
+    agile: "Scrum",
     languages: {
-      default: "spanish",
-      more: ["english"]
+      default: "Spanish",
+      more: ["English"]
     }
   };
+  
+  return myStack;
 }
 ```
 ## Projects 💻

@@ -31,19 +31,30 @@ function getFerneyStack(): DeveloperTools {
         "phpMyAdmin",
         "Azure Data Studio",
         "MySQL Workbench",
-        "Supabase CLI"
+        "Supabase CLI",
+        "pgadmin"
       ],
       noSqlTools: ["Firebase", "MongoDB Compass"]
     },
     tools: {
-      libs: ["Bootstrap", "Bulma", "Phaser"],
+      libs: ["Bootstrap", "Bulma", "Phaser", "Tailwind CSS"],
       devOps: ["AWS", "Heroku", "Cloudflare"],
       env: ["Node.js", "virtualenv"],
       standard: ["JSON", "JWT"],
       container: ["Docker", "Docker Compose"],
-      versioning: ["Git", "GitHub"]
+      versioning: ["Git", "GitHub", "GitHub CLI"],
+      ciCd: ["GitHub Tools"]
     },
-    ai: ["ChatGPT", "Claude", "DeepSeek", "Gemini"],
+    ai: ["ChatGPT", "Claude", "DeepSeek", "Gemini", "OpenCode", "RAG", "Antigrativity"],
+    apiIntegrations: [
+      "WhatsApp API",
+      "Gemini API",
+      "OpenAI API",
+      "Twilio API",
+      "PayPal API",
+      "Nequi API"
+    ],
+    automationAndScraping: ["Python Web Scrapers"],
     platforms: {
       favorite: "Arch Linux",
       familiarWith: ["Microsoft Systems", "Linux Distributions"]
@@ -56,6 +67,7 @@ function getFerneyStack(): DeveloperTools {
         "Design System Patterns"
       ]
     },
+    programmingStyle: "SDD",
     dev: "Full-Stack",
     agile: "Scrum",
     languages: {

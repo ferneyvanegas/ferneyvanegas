@@ -1,0 +1,54 @@
+name: Generate Terminal GIF
+
+on:
+  # Se ejecuta cuando cambias el SVG
+  push:
+    paths:
+      - 'images/terminal.svg'
+  # También puedes ejecutarlo manualmente desde la UI de GitHub
+  workflow_dispatch:
+
+jobs:
+  generate-gif:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ffmpeg
+        run: sudo apt-get install -y ffmpeg
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          npm install
+
+      - name: Create frames directory
+        run: mkdir -p frames
+
+      - name: Capture frames with Puppeteer
+        run: node scripts/capture.js
+
+      - name: Encode GIF with ffmpeg
+        run: |
+          ffmpeg -y \
+            -framerate 20 \
+            -pattern_type glob \
+            -i 'frames/frame_*.png' \
+            -filter_complex '[0:v] split [a][b]; [a] palettegen=stats_mode=full [p]; [b][p] paletteuse=dither=bayer' \
+            images/terminal.gif
+          echo "GIF generado: $(du -sh images/terminal.gif | cut -f1)"
+
+      - name: Commit and push GIF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add images/terminal.gif
+          git diff --staged --quiet || git commit -m "chore: auto-generate terminal.gif [skip ci]"
+          git push

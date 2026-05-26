@@ -1,0 +1,380 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 836" width="100%">
+<defs>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;display=swap');
+.tm { font-family:'Fira Code','Courier New',monospace; font-size:13px; }
+.pu { fill:#89b4fa; font-weight:bold; }
+.ph { fill:#cba6f7; font-weight:bold; }
+.pa { fill:#f5c2e7; }
+.cm { fill:#cdd6f4; font-weight:500; }
+.cy { fill:#89dceb; }
+.gr { fill:#a6e3a1; }
+.ye { fill:#f9e2af; }
+.or { fill:#fab387; }
+.gy { fill:#585b70; }
+.pk { fill:#f5c2e7; }
+.rd { fill:#f38ba8; }
+.wh { fill:#cdd6f4; }
+.tt { fill:#a6adc8; font-size:12px; text-anchor:middle; }
+/* cursor permanente (solo al final) */
+.cur { fill:#cdd6f4; animation: blink 1s step-end infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+.tc1 { animation: tc1 120.0s linear forwards; }
+.tc2 { animation: tc2 120.0s linear forwards; }
+.tc3 { animation: tc3 120.0s linear forwards; }
+.tc4 { animation: tc4 120.0s linear forwards; }
+.tc5 { animation: tc5 120.0s linear forwards; }
+@keyframes p2 { 0%,2.9167%{opacity:0} 3.0417%{opacity:1} 100%{opacity:1} }
+.p2 { animation: p2 120.0s linear forwards; }
+@keyframes p3 { 0%,7.9167%{opacity:0} 8.0417%{opacity:1} 100%{opacity:1} }
+.p3 { animation: p3 120.0s linear forwards; }
+@keyframes p4 { 0%,13.3333%{opacity:0} 13.4583%{opacity:1} 100%{opacity:1} }
+.p4 { animation: p4 120.0s linear forwards; }
+@keyframes p5 { 0%,18.3333%{opacity:0} 18.4583%{opacity:1} 100%{opacity:1} }
+.p5 { animation: p5 120.0s linear forwards; }
+@keyframes pf { 0%,22.5000%{opacity:0} 22.6250%{opacity:1} 100%{opacity:1} }
+.pf { animation: pf 120.0s linear forwards; }
+@keyframes r1_1 { 0%,1.2500%{opacity:0} 1.3333%{opacity:1} 100%{opacity:1} }
+.r1_1 { animation: r1_1 120.0s linear forwards; }
+@keyframes r1_2 { 0%,1.3250%{opacity:0} 1.4083%{opacity:1} 100%{opacity:1} }
+.r1_2 { animation: r1_2 120.0s linear forwards; }
+@keyframes r1_3 { 0%,1.4000%{opacity:0} 1.4833%{opacity:1} 100%{opacity:1} }
+.r1_3 { animation: r1_3 120.0s linear forwards; }
+@keyframes r1_4 { 0%,1.4750%{opacity:0} 1.5583%{opacity:1} 100%{opacity:1} }
+.r1_4 { animation: r1_4 120.0s linear forwards; }
+@keyframes r1_5 { 0%,1.5500%{opacity:0} 1.6333%{opacity:1} 100%{opacity:1} }
+.r1_5 { animation: r1_5 120.0s linear forwards; }
+@keyframes r1_6 { 0%,1.6250%{opacity:0} 1.7083%{opacity:1} 100%{opacity:1} }
+.r1_6 { animation: r1_6 120.0s linear forwards; }
+@keyframes r1_7 { 0%,1.7000%{opacity:0} 1.7833%{opacity:1} 100%{opacity:1} }
+.r1_7 { animation: r1_7 120.0s linear forwards; }
+@keyframes r1_8 { 0%,1.7750%{opacity:0} 1.8583%{opacity:1} 100%{opacity:1} }
+.r1_8 { animation: r1_8 120.0s linear forwards; }
+@keyframes r2_1 { 0%,5.5833%{opacity:0} 5.6667%{opacity:1} 100%{opacity:1} }
+.r2_1 { animation: r2_1 120.0s linear forwards; }
+@keyframes r2_2 { 0%,5.6583%{opacity:0} 5.7417%{opacity:1} 100%{opacity:1} }
+.r2_2 { animation: r2_2 120.0s linear forwards; }
+@keyframes r2_3 { 0%,5.7333%{opacity:0} 5.8167%{opacity:1} 100%{opacity:1} }
+.r2_3 { animation: r2_3 120.0s linear forwards; }
+@keyframes r2_4 { 0%,5.8083%{opacity:0} 5.8917%{opacity:1} 100%{opacity:1} }
+.r2_4 { animation: r2_4 120.0s linear forwards; }
+@keyframes r2_5 { 0%,5.8833%{opacity:0} 5.9667%{opacity:1} 100%{opacity:1} }
+.r2_5 { animation: r2_5 120.0s linear forwards; }
+@keyframes r2_6 { 0%,5.9583%{opacity:0} 6.0417%{opacity:1} 100%{opacity:1} }
+.r2_6 { animation: r2_6 120.0s linear forwards; }
+@keyframes r2_7 { 0%,6.0333%{opacity:0} 6.1167%{opacity:1} 100%{opacity:1} }
+.r2_7 { animation: r2_7 120.0s linear forwards; }
+@keyframes r3_1 { 0%,11.0000%{opacity:0} 11.0833%{opacity:1} 100%{opacity:1} }
+.r3_1 { animation: r3_1 120.0s linear forwards; }
+@keyframes r3_2 { 0%,11.0750%{opacity:0} 11.1583%{opacity:1} 100%{opacity:1} }
+.r3_2 { animation: r3_2 120.0s linear forwards; }
+@keyframes r3_3 { 0%,11.1500%{opacity:0} 11.2333%{opacity:1} 100%{opacity:1} }
+.r3_3 { animation: r3_3 120.0s linear forwards; }
+@keyframes r3_4 { 0%,11.2250%{opacity:0} 11.3083%{opacity:1} 100%{opacity:1} }
+.r3_4 { animation: r3_4 120.0s linear forwards; }
+@keyframes r3_5 { 0%,11.3000%{opacity:0} 11.3833%{opacity:1} 100%{opacity:1} }
+.r3_5 { animation: r3_5 120.0s linear forwards; }
+@keyframes r3_6 { 0%,11.3750%{opacity:0} 11.4583%{opacity:1} 100%{opacity:1} }
+.r3_6 { animation: r3_6 120.0s linear forwards; }
+@keyframes r4_1 { 0%,15.7500%{opacity:0} 15.8333%{opacity:1} 100%{opacity:1} }
+.r4_1 { animation: r4_1 120.0s linear forwards; }
+@keyframes r4_2 { 0%,15.8250%{opacity:0} 15.9083%{opacity:1} 100%{opacity:1} }
+.r4_2 { animation: r4_2 120.0s linear forwards; }
+@keyframes r4_3 { 0%,15.9000%{opacity:0} 15.9833%{opacity:1} 100%{opacity:1} }
+.r4_3 { animation: r4_3 120.0s linear forwards; }
+@keyframes r4_4 { 0%,15.9750%{opacity:0} 16.0583%{opacity:1} 100%{opacity:1} }
+.r4_4 { animation: r4_4 120.0s linear forwards; }
+@keyframes r4_5 { 0%,16.0500%{opacity:0} 16.1333%{opacity:1} 100%{opacity:1} }
+.r4_5 { animation: r4_5 120.0s linear forwards; }
+@keyframes r4_6 { 0%,16.1250%{opacity:0} 16.2083%{opacity:1} 100%{opacity:1} }
+.r4_6 { animation: r4_6 120.0s linear forwards; }
+@keyframes r4_7 { 0%,16.2000%{opacity:0} 16.2833%{opacity:1} 100%{opacity:1} }
+.r4_7 { animation: r4_7 120.0s linear forwards; }
+@keyframes r5_1 { 0%,21.0000%{opacity:0} 21.0833%{opacity:1} 100%{opacity:1} }
+.r5_1 { animation: r5_1 120.0s linear forwards; }
+@keyframes r5_2 { 0%,21.0750%{opacity:0} 21.1583%{opacity:1} 100%{opacity:1} }
+.r5_2 { animation: r5_2 120.0s linear forwards; }
+@keyframes r5_3 { 0%,21.1500%{opacity:0} 21.2333%{opacity:1} 100%{opacity:1} }
+.r5_3 { animation: r5_3 120.0s linear forwards; }
+@keyframes r5_4 { 0%,21.2250%{opacity:0} 21.3083%{opacity:1} 100%{opacity:1} }
+.r5_4 { animation: r5_4 120.0s linear forwards; }
+@keyframes tc1 {
+  0%,0.4167% { width:0px; }
+  0.4722% { width:5px; }
+  0.5278% { width:10px; }
+  0.5833% { width:16px; }
+  0.6389% { width:21px; }
+  0.6944% { width:26px; }
+  0.7500% { width:31px; }
+  0.8056% { width:36px; }
+  0.8611% { width:42px; }
+  0.9167% { width:47px; }
+  0.9722% { width:52px; }
+  1.0278% { width:57px; }
+  1.0833% { width:62px; }
+  100% { width:62px; }
+}
+@keyframes tc2 {
+  0%,3.3333% { width:0px; }
+  3.5069% { width:20px; }
+  3.6806% { width:39px; }
+  3.8542% { width:58px; }
+  4.0278% { width:78px; }
+  4.2014% { width:98px; }
+  4.3750% { width:117px; }
+  4.5486% { width:136px; }
+  4.7222% { width:156px; }
+  4.8958% { width:176px; }
+  5.0694% { width:195px; }
+  5.2431% { width:214px; }
+  5.4167% { width:234px; }
+  100% { width:234px; }
+}
+@keyframes tc3 {
+  0%,8.3333% { width:0px; }
+  8.5417% { width:23px; }
+  8.7500% { width:46px; }
+  8.9583% { width:68px; }
+  9.1667% { width:91px; }
+  9.3750% { width:114px; }
+  9.5833% { width:136px; }
+  9.7917% { width:159px; }
+  10.0000% { width:182px; }
+  10.2083% { width:205px; }
+  10.4167% { width:228px; }
+  10.6250% { width:250px; }
+  10.8333% { width:273px; }
+  100% { width:273px; }
+}
+@keyframes tc4 {
+  0%,13.7500% { width:0px; }
+  13.9028% { width:17px; }
+  14.0556% { width:34px; }
+  14.2083% { width:51px; }
+  14.3611% { width:68px; }
+  14.5139% { width:84px; }
+  14.6667% { width:101px; }
+  14.8194% { width:118px; }
+  14.9722% { width:135px; }
+  15.1250% { width:152px; }
+  15.2778% { width:169px; }
+  15.4306% { width:186px; }
+  15.5833% { width:203px; }
+  100% { width:203px; }
+}
+@keyframes tc5 {
+  0%,18.7500% { width:0px; }
+  18.9236% { width:20px; }
+  19.0972% { width:39px; }
+  19.2708% { width:58px; }
+  19.4444% { width:78px; }
+  19.6181% { width:98px; }
+  19.7917% { width:117px; }
+  19.9653% { width:136px; }
+  20.1389% { width:156px; }
+  20.3125% { width:176px; }
+  20.4861% { width:195px; }
+  20.6597% { width:214px; }
+  20.8333% { width:234px; }
+  100% { width:234px; }
+}
+
+.cur1 { fill:#cdd6f4; animation: cur1 120.0s linear forwards; }
+.cur2 { fill:#cdd6f4; animation: cur2 120.0s linear forwards; }
+.cur3 { fill:#cdd6f4; animation: cur3 120.0s linear forwards; }
+.cur4 { fill:#cdd6f4; animation: cur4 120.0s linear forwards; }
+.cur5 { fill:#cdd6f4; animation: cur5 120.0s linear forwards; }
+
+@keyframes cur1 {
+  0%, 0.2000% { transform: translateX(0px); opacity: 1; }
+  0.2001%, 0.4000% { transform: translateX(0px); opacity: 0; }
+  0.4167% { transform: translateX(0px); opacity: 1; }
+  0.4722% { transform: translateX(5px); }
+  0.5278% { transform: translateX(10px); }
+  0.5833% { transform: translateX(16px); }
+  0.6389% { transform: translateX(21px); }
+  0.6944% { transform: translateX(26px); }
+  0.7500% { transform: translateX(31px); }
+  0.8056% { transform: translateX(36px); }
+  0.8611% { transform: translateX(42px); }
+  0.9167% { transform: translateX(47px); }
+  0.9722% { transform: translateX(52px); }
+  1.0278% { transform: translateX(57px); }
+  1.0833% { transform: translateX(62px); opacity: 1; }
+  1.1500% { transform: translateX(62px); opacity: 1; }
+  1.1501%, 1.2499% { transform: translateX(62px); opacity: 0; }
+  1.2500%, 100% { transform: translateX(62px); opacity: 0; }
+}
+
+@keyframes cur2 {
+  0%, 2.9167% { transform: translateX(0px); opacity: 0; }
+  2.9168%, 3.1250% { transform: translateX(0px); opacity: 1; }
+  3.1251%, 3.3332% { transform: translateX(0px); opacity: 0; }
+  3.3333% { transform: translateX(0px); opacity: 1; }
+  3.5069% { transform: translateX(20px); }
+  3.6806% { transform: translateX(39px); }
+  3.8542% { transform: translateX(58px); }
+  4.0278% { transform: translateX(78px); }
+  4.2014% { transform: translateX(98px); }
+  4.3750% { transform: translateX(117px); }
+  4.5486% { transform: translateX(136px); }
+  4.7222% { transform: translateX(156px); }
+  4.8958% { transform: translateX(176px); }
+  5.0694% { transform: translateX(195px); }
+  5.2431% { transform: translateX(214px); }
+  5.4167% { transform: translateX(234px); opacity: 1; }
+  5.5000% { transform: translateX(234px); opacity: 1; }
+  5.5001%, 5.5832% { transform: translateX(234px); opacity: 0; }
+  5.5833%, 100% { transform: translateX(234px); opacity: 0; }
+}
+
+@keyframes cur3 {
+  0%, 7.9167% { transform: translateX(0px); opacity: 0; }
+  7.9168%, 8.1250% { transform: translateX(0px); opacity: 1; }
+  8.1251%, 8.3332% { transform: translateX(0px); opacity: 0; }
+  8.3333% { transform: translateX(0px); opacity: 1; }
+  8.5417% { transform: translateX(23px); }
+  8.7500% { transform: translateX(46px); }
+  8.9583% { transform: translateX(68px); }
+  9.1667% { transform: translateX(91px); }
+  9.3750% { transform: translateX(114px); }
+  9.5833% { transform: translateX(136px); }
+  9.7917% { transform: translateX(159px); }
+  10.0000% { transform: translateX(182px); }
+  10.2083% { transform: translateX(205px); }
+  10.4167% { transform: translateX(228px); }
+  10.6250% { transform: translateX(250px); }
+  10.8333% { transform: translateX(273px); opacity: 1; }
+  10.9167% { transform: translateX(273px); opacity: 1; }
+  10.9168%, 10.9999% { transform: translateX(273px); opacity: 0; }
+  11.0000%, 100% { transform: translateX(273px); opacity: 0; }
+}
+
+@keyframes cur4 {
+  0%, 13.3333% { transform: translateX(0px); opacity: 0; }
+  13.3334%, 13.5417% { transform: translateX(0px); opacity: 1; }
+  13.5418%, 13.7500% { transform: translateX(0px); opacity: 0; }
+  13.7500% { transform: translateX(0px); opacity: 1; }
+  13.9028% { transform: translateX(17px); }
+  14.0556% { transform: translateX(34px); }
+  14.2083% { transform: translateX(51px); }
+  14.3611% { transform: translateX(68px); }
+  14.5139% { transform: translateX(84px); }
+  14.6667% { transform: translateX(101px); }
+  14.8194% { transform: translateX(118px); }
+  14.9722% { transform: translateX(135px); }
+  15.1250% { transform: translateX(152px); }
+  15.2778% { transform: translateX(169px); }
+  15.4306% { transform: translateX(186px); }
+  15.5833% { transform: translateX(203px); opacity: 1; }
+  15.6667% { transform: translateX(203px); opacity: 1; }
+  15.6668%, 15.7499% { transform: translateX(203px); opacity: 0; }
+  15.7500%, 100% { transform: translateX(203px); opacity: 0; }
+}
+
+@keyframes cur5 {
+  0%, 18.3333% { transform: translateX(0px); opacity: 0; }
+  18.3334%, 18.5417% { transform: translateX(0px); opacity: 1; }
+  18.5418%, 18.7500% { transform: translateX(0px); opacity: 0; }
+  18.7500% { transform: translateX(0px); opacity: 1; }
+  18.9236% { transform: translateX(20px); }
+  19.0972% { transform: translateX(39px); }
+  19.2708% { transform: translateX(58px); }
+  19.4444% { transform: translateX(78px); }
+  19.6181% { transform: translateX(98px); }
+  19.7917% { transform: translateX(117px); }
+  19.9653% { transform: translateX(136px); }
+  20.1389% { transform: translateX(156px); }
+  20.3125% { transform: translateX(176px); }
+  20.4861% { transform: translateX(195px); }
+  20.6597% { transform: translateX(214px); }
+  20.8333% { transform: translateX(234px); opacity: 1; }
+  20.9167% { transform: translateX(234px); opacity: 1; }
+  20.9168%, 20.9999% { transform: translateX(234px); opacity: 0; }
+  21.0000%, 100% { transform: translateX(234px); opacity: 0; }
+}
+</style>
+<clipPath id="clip1"><rect x="185" y="52" height="22" class="tc1"/></clipPath>
+<clipPath id="clip2"><rect x="185" y="228" height="22" class="tc2"/></clipPath>
+<clipPath id="clip3"><rect x="185" y="386" height="22" class="tc3"/></clipPath>
+<clipPath id="clip4"><rect x="185" y="526" height="22" class="tc4"/></clipPath>
+<clipPath id="clip5"><rect x="185" y="684" height="22" class="tc5"/></clipPath>
+</defs>
+
+<!-- background -->
+<rect width="800" height="836" rx="10" fill="#1e1e2e"/>
+<!-- title bar -->
+<rect width="800" height="38" rx="10" fill="#11111b"/>
+<rect y="20" width="800" height="18" fill="#11111b"/>
+<circle cx="28" cy="19" r="6" fill="#f38ba8"/>
+<circle cx="48" cy="19" r="6" fill="#f9e2af"/>
+<circle cx="68" cy="19" r="6" fill="#a6e3a1"/>
+<text x="400" y="24" class="tm tt">ferney@archlinux: ~</text>
+
+<g class="tm">
+<g>
+  <text x="20" y="70" class="pu">ferney</text>
+  <text x="72" y="70" class="gy">@</text>
+  <text x="82" y="70" class="ph">archlinux</text>
+  <text x="168" y="70" class="pa"> ~$ </text>
+</g><g clip-path="url(#clip1)"><text x="185" y="70" class="cm">neofetch</text></g><rect x="185" y="57" width="8" height="15" class="cur1"/><text x="20" y="88" class="tm r1_1"><tspan class="cy">██████╗   </tspan><tspan class="ph">ferney</tspan><tspan class="gy">@</tspan><tspan class="pu">vanegas</tspan></text>
+<text x="20" y="106" class="tm r1_2"><tspan class="cy">██╔════╝  </tspan><tspan class="gy">────────────────────────────</tspan></text>
+<text x="20" y="124" class="tm r1_3"><tspan class="cy">█████╗    </tspan><tspan class="or">OS:      </tspan><tspan class="wh">Arch Linux x86_64</tspan></text>
+<text x="20" y="142" class="tm r1_4"><tspan class="cy">██╔══╝    </tspan><tspan class="or">Dev:     </tspan><tspan class="gr">Full-Stack Developer</tspan></text>
+<text x="20" y="160" class="tm r1_5"><tspan class="cy">██║       </tspan><tspan class="or">Style:   </tspan><tspan class="ye">SDD (Specification-Driven Dev)</tspan></text>
+<text x="20" y="178" class="tm r1_6"><tspan class="cy">╚═╝       </tspan><tspan class="or">Agile:   </tspan><tspan class="wh">Scrum</tspan></text>
+<text x="20" y="196" class="tm r1_7"><tspan class="cy">          </tspan><tspan class="or">Lang:    </tspan><tspan class="pk">Python · JS · TS · Bash · SQL</tspan></text>
+<text x="20" y="214" class="tm r1_8"><tspan class="cy">          </tspan><tspan class="or">Spoken:  </tspan><tspan class="wh">Spanish (Native) · English</tspan></text>
+<g class="p2">
+  <text x="20" y="246" class="pu">ferney</text>
+  <text x="72" y="246" class="gy">@</text>
+  <text x="82" y="246" class="ph">archlinux</text>
+  <text x="168" y="246" class="pa"> ~$ </text>
+</g><g clip-path="url(#clip2)" class="p2"><text x="185" y="246" class="cm">ferney --languages --paradigms</text></g><rect x="185" y="233" width="8" height="15" class="cur2"/><text x="20" y="264" class="tm r2_1"><tspan class="gy">[loading language modules...]</tspan></text>
+<text x="20" y="282" class="tm r2_2"><tspan class="or">Primary    : </tspan><tspan class="pk">Python · JavaScript · TypeScript · Bash · SQL</tspan></text>
+<text x="20" y="300" class="tm r2_3"><tspan class="or">Familiar   : </tspan><tspan class="rd">Java · PHP · C++ · C# · Visual Basic</tspan></text>
+<text x="20" y="318" class="tm r2_4"><tspan class="or">Markup     : </tspan><tspan class="cy">HTML · CSS · Markdown</tspan></text>
+<text x="20" y="336" class="tm r2_5"><tspan class="or">Arch       : </tspan><tspan class="ye">Microservices · OOP · SPA · PWA · Event-driven</tspan></text>
+<text x="20" y="354" class="tm r2_6"><tspan class="or">IDE / Env  : </tspan><tspan class="wh">NetBeans · .NET · Node.js · virtualenv</tspan></text>
+<text x="20" y="372" class="tm r2_7"><tspan class="or">Platforms  : </tspan><tspan class="gr">Arch Linux </tspan><tspan class="gy">| </tspan><tspan class="wh">Microsoft Systems · Linux Distros</tspan></text>
+<g class="p3">
+  <text x="20" y="404" class="pu">ferney</text>
+  <text x="72" y="404" class="gy">@</text>
+  <text x="82" y="404" class="ph">archlinux</text>
+  <text x="168" y="404" class="pa"> ~$ </text>
+</g><g clip-path="url(#clip3)" class="p3"><text x="185" y="404" class="cm">ferney --skills --filter=frameworks</text></g><rect x="185" y="391" width="8" height="15" class="cur3"/><text x="20" y="422" class="tm r3_1"><tspan class="gy">[scanning framework registry...]</tspan></text>
+<text x="20" y="440" class="tm r3_2"><tspan class="or">Backend    : </tspan><tspan class="cy">Express · Django · LoopBack · CodeIgniter</tspan></text>
+<text x="20" y="458" class="tm r3_3"><tspan class="or">Frontend   : </tspan><tspan class="cy">React · Next.js · React Native · Angular · Ionic</tspan></text>
+<text x="20" y="476" class="tm r3_4"><tspan class="or">CSS / UI   : </tspan><tspan class="cy">Tailwind CSS · Bootstrap · Bulma</tspan></text>
+<text x="20" y="494" class="tm r3_5"><tspan class="or">Game / FX  : </tspan><tspan class="wh">Phaser</tspan></text>
+<text x="20" y="512" class="tm r3_6"><tspan class="or">Standard   : </tspan><tspan class="wh">JSON · JWT</tspan></text>
+<g class="p4">
+  <text x="20" y="544" class="pu">ferney</text>
+  <text x="72" y="544" class="gy">@</text>
+  <text x="82" y="544" class="ph">archlinux</text>
+  <text x="168" y="544" class="pa"> ~$ </text>
+</g><g clip-path="url(#clip4)" class="p4"><text x="185" y="544" class="cm">ferney --databases --tools</text></g><rect x="185" y="531" width="8" height="15" class="cur4"/><text x="20" y="562" class="tm r4_1"><tspan class="gy">[indexing database connections...]</tspan></text>
+<text x="20" y="580" class="tm r4_2"><tspan class="or">SQL DBs    : </tspan><tspan class="gr">PostgreSQL · Supabase · MySQL · MariaDB · SQL Server</tspan></text>
+<text x="20" y="598" class="tm r4_3"><tspan class="or">NoSQL DBs  : </tspan><tspan class="gr">MongoDB · Firebase</tspan></text>
+<text x="20" y="616" class="tm r4_4"><tspan class="or">DB Tools   : </tspan><tspan class="ye">pgAdmin · phpMyAdmin · MySQL Workbench · Azure Data Studio · Supabase CLI</tspan></text>
+<text x="20" y="634" class="tm r4_5"><tspan class="or">NoSQL Tools: </tspan><tspan class="ye">MongoDB Compass</tspan></text>
+<text x="20" y="652" class="tm r4_6"><tspan class="or">Container  : </tspan><tspan class="cy">Docker · Docker Compose</tspan></text>
+<text x="20" y="670" class="tm r4_7"><tspan class="or">DevOps     : </tspan><tspan class="cy">AWS · Cloudflare · Heroku · Git · GitHub · GitHub CLI · CI/CD</tspan></text>
+<g class="p5">
+  <text x="20" y="702" class="pu">ferney</text>
+  <text x="72" y="702" class="gy">@</text>
+  <text x="82" y="702" class="ph">archlinux</text>
+  <text x="168" y="702" class="pa"> ~$ </text>
+</g><g clip-path="url(#clip5)" class="p5"><text x="185" y="702" class="cm">ferney --run-integrations --ai</text></g><rect x="185" y="689" width="8" height="15" class="cur5"/><text x="20" y="720" class="tm r5_1"><tspan class="gy">[initiating neural integrations...]</tspan></text>
+<text x="20" y="738" class="tm r5_2"><tspan class="or">AI Agents  : </tspan><tspan class="pk">Antigravity 2.0 · Antigravity CLI · OpenCode · Claude · DeepSeek · RAG</tspan></text>
+<text x="20" y="756" class="tm r5_3"><tspan class="or">AI APIs    : </tspan><tspan class="pk">Gemini API · OpenAI API</tspan></text>
+<text x="20" y="774" class="tm r5_4"><tspan class="or">APIs/Gates : </tspan><tspan class="ye">Nequi · PayPal · Twilio · WhatsApp API</tspan></text>
+<g class="pf">
+  <text x="20" y="806" class="pu">ferney</text>
+  <text x="72" y="806" class="gy">@</text>
+  <text x="82" y="806" class="ph">archlinux</text>
+  <text x="168" y="806" class="pa"> ~$ </text>
+  <rect x="185" y="793" width="8" height="15" class="cur"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "terminal-gif-generator",
+  "version": "1.0.0",
+  "description": "Genera GIF animado del terminal SVG usando Puppeteer",
+  "scripts": {
+    "capture": "node scripts/capture.js",
+    "generate": "npm run capture && npm run encode",
+    "encode": "ffmpeg -y -framerate 20 -pattern_type glob -i 'frames/frame_*.png' -filter_complex '[0:v] split [a][b]; [a] palettegen=stats_mode=full [p]; [b][p] paletteuse=dither=bayer' images/terminal.gif"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
